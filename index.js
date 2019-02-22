@@ -19,12 +19,12 @@ exports.getActiveWindow = function(callback,repeats,interval){
   interval = (interval) ?  interval : 0;
   repeats = (repeats) ? repeats : 1;
 
-  //Scape negative number of repeats on Windows OS
+  // escape negative number of repeats on Windows OS
   if (process.platform == 'win32' && repeats < 0 ){
     repeats = '\\-1';
   }
 
-  parameters  = config.parameters;
+  parameters = Array.from(config.parameters);
   parameters.push(repeats);
   parameters.push(process.platform == 'win32' ? (interval * 1000 | 0) : interval);
 

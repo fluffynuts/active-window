@@ -1,15 +1,22 @@
 {
-  "name": "active-window",
-  "version": "0.1.0",
-  "description": "Get active window title.",
+  "name": "cross-platform-active-window",
+  "version": "1.0.0",
+  "description": "Get active window title, cross-platform",
   "main": "index.js",
-  "contributors":[{ "name" : "Jason Stallings "
-                  , "email" : "jason@stallin.gs"
-                  , "url" : ""},
-                  { "name" : "Robson Vieira"
-                  , "email" : "robsonvnasc@gmail.com"
-                  , "url" : ""}
-                ],
+  "contributors": [
+    {
+      "name": "Jason Stallings ",
+      "email": "jason@stallin.gs"
+    },
+    {
+      "name": "Robson Vieira",
+      "email": "robsonvnasc@gmail.com"
+    },
+    {
+      "name": "Davyd McColl",
+      "email": "davydm@gmail.com"
+    }
+  ],
   "license": "MIT",
   "dependencies": {}
 }

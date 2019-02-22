@@ -1,5 +1,6 @@
-# active-window
+# cross-platform-active-window
 > Get active window title in Node.js.
+(fork of https://github.com/octalmage/active-window, which looks to be unmaintained)
 
 Compatible with Linux, Windows 7+, and OSX;
 
